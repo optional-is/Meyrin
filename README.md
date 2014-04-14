@@ -2,7 +2,7 @@
 
 ![Meyrin Terminal Font](http://i.imgur.com/doCoEa3.png)
 
-The process is pretty straight-forward. It is a two step processes. First you need to create an SVG file for each glyph. There is a template.svg which can be used to create new glyphs. There is a descender of two units and ascender of 3 units. This is used for didactics.
+The process is pretty straight-forward. It is a two step processes. First you need to create an SVG file for each glyph. There is a template.svg which can be used to create new glyphs. There is a descender of two units and ascender of 3 units. This is used for diacritics.
 
 Once each glyph is an individual SVG file, you can import them into a font creation tool. We used the online service http://icomoon.io From this we upload and map each SVG file to a specific unicode code point. We did some final tweaks in font forge to get the space character and additional metadata. 
 
